@@ -29,6 +29,10 @@
 		258F9B6E0BD67301134D66DF /* Pods_DesignExTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08EBE1669DBEF6AF9B97B12 /* Pods_DesignExTests.framework */; };
 		326CB67043FDA1513B824F98 /* Pods_DesignEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F2BBAD4B31B0636FB49656 /* Pods_DesignEx.framework */; };
 		6A1A8ECF2E2106CA87C30554 /* Pods_DesignEx_DesignExUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278D5BB4BC21B18972FC4D49 /* Pods_DesignEx_DesignExUITests.framework */; };
+		966785CE254C13FC00E158AD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966785CD254C13FC00E158AD /* WebKit.framework */; };
+		966785DE254C153200E158AD /* UItableViewCell + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966785DD254C153200E158AD /* UItableViewCell + extension.swift */; };
+		966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966785E2254C1A9100E158AD /* WKWebviewDetailViewController.swift */; };
+		966785E5254C1A9100E158AD /* WKWebviewDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966785E3254C1A9100E158AD /* WKWebviewDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,10 @@
 		0177F0B5254B1B7400764AFC /* WKWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewViewController.xib; sourceTree = "<group>"; };
 		1A38DECA6811CEDF2843FE35 /* Pods-DesignEx-DesignExUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignEx-DesignExUITests.release.xcconfig"; path = "Target Support Files/Pods-DesignEx-DesignExUITests/Pods-DesignEx-DesignExUITests.release.xcconfig"; sourceTree = "<group>"; };
 		278D5BB4BC21B18972FC4D49 /* Pods_DesignEx_DesignExUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignEx_DesignExUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		966785CD254C13FC00E158AD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		966785DD254C153200E158AD /* UItableViewCell + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UItableViewCell + extension.swift"; sourceTree = "<group>"; };
+		966785E2254C1A9100E158AD /* WKWebviewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewDetailViewController.swift; sourceTree = "<group>"; };
+		966785E3254C1A9100E158AD /* WKWebviewDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebviewDetailViewController.xib; sourceTree = "<group>"; };
 		ACDFDBFC42BDB8BEFE60B4C0 /* Pods-DesignEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignEx.release.xcconfig"; path = "Target Support Files/Pods-DesignEx/Pods-DesignEx.release.xcconfig"; sourceTree = "<group>"; };
 		BAAA884C4EF3A11F1D98238C /* Pods-DesignExTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignExTests.release.xcconfig"; path = "Target Support Files/Pods-DesignExTests/Pods-DesignExTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE6909037D5C68EC3F8A1A97 /* Pods-DesignExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignExTests.debug.xcconfig"; path = "Target Support Files/Pods-DesignExTests/Pods-DesignExTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966785CE254C13FC00E158AD /* WebKit.framework in Frameworks */,
 				326CB67043FDA1513B824F98 /* Pods_DesignEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,10 +183,8 @@
 		0177F067254AF9B500764AFC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				0177F084254AFD3700764AFC /* HiddenStatusBarViewController.swift */,
-				0177F085254AFD3700764AFC /* HiddenStatusBarViewController.xib */,
-				0177F0B4254B1B7400764AFC /* WKWebViewViewController.swift */,
-				0177F0B5254B1B7400764AFC /* WKWebViewViewController.xib */,
+				966785C9254C136200E158AD /* WKWebviewMenuList */,
+				966785C2254C134700E158AD /* HiddenHeaderWhenScroll */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 			children = (
 				0177F077254AFA7A00764AFC /* UIViewController + extension.swift */,
 				0177F07F254AFBD900764AFC /* ViewController + extension.swift */,
+				966785DD254C153200E158AD /* UItableViewCell + extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -223,9 +231,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		966785C2254C134700E158AD /* HiddenHeaderWhenScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0177F084254AFD3700764AFC /* HiddenStatusBarViewController.swift */,
+				0177F085254AFD3700764AFC /* HiddenStatusBarViewController.xib */,
+			);
+			path = HiddenHeaderWhenScroll;
+			sourceTree = "<group>";
+		};
+		966785C9254C136200E158AD /* WKWebviewMenuList */ = {
+			isa = PBXGroup;
+			children = (
+				966785D2254C143A00E158AD /* Cells */,
+				0177F0B4254B1B7400764AFC /* WKWebViewViewController.swift */,
+				0177F0B5254B1B7400764AFC /* WKWebViewViewController.xib */,
+				966785E2254C1A9100E158AD /* WKWebviewDetailViewController.swift */,
+				966785E3254C1A9100E158AD /* WKWebviewDetailViewController.xib */,
+			);
+			path = WKWebviewMenuList;
+			sourceTree = "<group>";
+		};
+		966785D2254C143A00E158AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		BE812EC41F9D8413A509DCED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				966785CD254C13FC00E158AD /* WebKit.framework */,
 				E0F2BBAD4B31B0636FB49656 /* Pods_DesignEx.framework */,
 				278D5BB4BC21B18972FC4D49 /* Pods_DesignEx_DesignExUITests.framework */,
 				E08EBE1669DBEF6AF9B97B12 /* Pods_DesignExTests.framework */,
@@ -346,6 +383,7 @@
 				0177F087254AFD3700764AFC /* HiddenStatusBarViewController.xib in Resources */,
 				0177F0B7254B1B7400764AFC /* WKWebViewViewController.xib in Resources */,
 				0177F09E254B146900764AFC /* HeaderView.xib in Resources */,
+				966785E5254C1A9100E158AD /* WKWebviewDetailViewController.xib in Resources */,
 				0177F03B254AF43D00764AFC /* Assets.xcassets in Resources */,
 				0177F06F254AFA2200764AFC /* FunctionTableViewCell.xib in Resources */,
 			);
@@ -477,6 +515,7 @@
 			files = (
 				0177F0B6254B1B7400764AFC /* WKWebViewViewController.swift in Sources */,
 				0177F036254AF43C00764AFC /* ViewController.swift in Sources */,
+				966785DE254C153200E158AD /* UItableViewCell + extension.swift in Sources */,
 				0177F032254AF43C00764AFC /* AppDelegate.swift in Sources */,
 				0177F086254AFD3700764AFC /* HiddenStatusBarViewController.swift in Sources */,
 				0177F080254AFBD900764AFC /* ViewController + extension.swift in Sources */,
@@ -485,6 +524,7 @@
 				0177F06E254AFA2200764AFC /* FunctionTableViewCell.swift in Sources */,
 				0177F078254AFA7A00764AFC /* UIViewController + extension.swift in Sources */,
 				0177F0A3254B149000764AFC /* HeaderView.swift in Sources */,
+				966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

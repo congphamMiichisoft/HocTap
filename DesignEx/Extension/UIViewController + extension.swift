@@ -15,10 +15,16 @@ extension UIViewController {
         let header = HeaderView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 56))
         header.backgroundColor = .red
         self.view.addSubview(header)
+        header.frame.origin.y += 40
 //        header.translatesAutoresizingMaskIntoConstraints = false
         header.action = {
             self.navigationController?.popViewController(animated: true)
         }
+//        self.view.translatesAutoresizingMaskIntoConstraints = false
+        
+    }
+
+    func configMainView(childview : UIView){
     }
    
 }
