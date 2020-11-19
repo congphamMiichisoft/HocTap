@@ -1,0 +1,6 @@
+framework module Pods_DesignEx {
+  umbrella header "Pods-DesignEx-umbrella.h"
+
+  export *
+  module * { export * }
+}
