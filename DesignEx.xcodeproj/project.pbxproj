@@ -37,6 +37,10 @@
 		0177F141254C62E300764AFC /* HomeDateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F140254C62E300764AFC /* HomeDateSource.swift */; };
 		0177F157254C68B900764AFC /* HomeViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F156254C68B900764AFC /* HomeViewController + extension.swift */; };
 		0177F162254F035A00764AFC /* UIImageView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F161254F035A00764AFC /* UIImageView + extension.swift */; };
+		01C721AA2566B7E300548E13 /* WKWebSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C721A82566B7E300548E13 /* WKWebSessionViewController.swift */; };
+		01C721B32566B96700548E13 /* WKWebSessionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C721B22566B96700548E13 /* WKWebSessionDetailViewController.swift */; };
+		01C721B92566D00100548E13 /* WKWebviewShareCookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C721B72566D00100548E13 /* WKWebviewShareCookieViewController.swift */; };
+		01C721BA2566D00100548E13 /* WKWebviewShareCookieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C721B82566D00100548E13 /* WKWebviewShareCookieViewController.xib */; };
 		01F01798254F0F7500567E67 /* WKWebviewMainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F01796254F0F7500567E67 /* WKWebviewMainUIViewController.swift */; };
 		01F01799254F0F7500567E67 /* WKWebviewMainUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F01797254F0F7500567E67 /* WKWebviewMainUIViewController.xib */; };
 		01F0179E254F106C00567E67 /* WKWebviewMainDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0179D254F106C00567E67 /* WKWebviewMainDatasource.swift */; };
@@ -102,6 +106,10 @@
 		0177F152254C670A00764AFC /* DesignExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0177F156254C68B900764AFC /* HomeViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + extension.swift"; sourceTree = "<group>"; };
 		0177F161254F035A00764AFC /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
+		01C721A82566B7E300548E13 /* WKWebSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebSessionViewController.swift; sourceTree = "<group>"; };
+		01C721B22566B96700548E13 /* WKWebSessionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebSessionDetailViewController.swift; sourceTree = "<group>"; };
+		01C721B72566D00100548E13 /* WKWebviewShareCookieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewShareCookieViewController.swift; sourceTree = "<group>"; };
+		01C721B82566D00100548E13 /* WKWebviewShareCookieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebviewShareCookieViewController.xib; sourceTree = "<group>"; };
 		01F01796254F0F7500567E67 /* WKWebviewMainUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewMainUIViewController.swift; sourceTree = "<group>"; };
 		01F01797254F0F7500567E67 /* WKWebviewMainUIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebviewMainUIViewController.xib; sourceTree = "<group>"; };
 		01F0179D254F106C00567E67 /* WKWebviewMainDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewMainDatasource.swift; sourceTree = "<group>"; };
@@ -251,6 +259,7 @@
 		0177F100254C4A9C00764AFC /* Webview */ = {
 			isa = PBXGroup;
 			children = (
+				01C721A72566B7B800548E13 /* WKWebviewSession */,
 				966785C9254C136200E158AD /* WKWebviewMenuList */,
 				01F01796254F0F7500567E67 /* WKWebviewMainUIViewController.swift */,
 				01F0179D254F106C00567E67 /* WKWebviewMainDatasource.swift */,
@@ -297,6 +306,17 @@
 				0177F156254C68B900764AFC /* HomeViewController + extension.swift */,
 			);
 			path = ConfigHome;
+			sourceTree = "<group>";
+		};
+		01C721A72566B7B800548E13 /* WKWebviewSession */ = {
+			isa = PBXGroup;
+			children = (
+				01C721A82566B7E300548E13 /* WKWebSessionViewController.swift */,
+				01C721B22566B96700548E13 /* WKWebSessionDetailViewController.swift */,
+				01C721B72566D00100548E13 /* WKWebviewShareCookieViewController.swift */,
+				01C721B82566D00100548E13 /* WKWebviewShareCookieViewController.xib */,
+			);
+			path = WKWebviewSession;
 			sourceTree = "<group>";
 		};
 		7E6F11CCDA1C200FA5DAE293 /* Pods */ = {
@@ -459,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C721BA2566D00100548E13 /* WKWebviewShareCookieViewController.xib in Resources */,
 				0177F095254B042B00764AFC /* ViewController.xib in Resources */,
 				01F01799254F0F7500567E67 /* WKWebviewMainUIViewController.xib in Resources */,
 				0177F03E254AF43D00764AFC /* LaunchScreen.storyboard in Resources */,
@@ -606,14 +627,17 @@
 				0177F162254F035A00764AFC /* UIImageView + extension.swift in Sources */,
 				0177F12C254C574C00764AFC /* UICollectionviewCell + extension.swift in Sources */,
 				01F01798254F0F7500567E67 /* WKWebviewMainUIViewController.swift in Sources */,
+				01C721AA2566B7E300548E13 /* WKWebSessionViewController.swift in Sources */,
 				966785DE254C153200E158AD /* UItableViewCell + extension.swift in Sources */,
 				0177F032254AF43C00764AFC /* AppDelegate.swift in Sources */,
 				0177F086254AFD3700764AFC /* HiddenStatusBarViewController.swift in Sources */,
+				01C721B32566B96700548E13 /* WKWebSessionDetailViewController.swift in Sources */,
 				0177F114254C537D00764AFC /* HomeViewController.swift in Sources */,
 				0177F080254AFBD900764AFC /* ViewController + extension.swift in Sources */,
 				0177F136254C5F3200764AFC /* String + extension.swift in Sources */,
 				0177F13B254C5FB900764AFC /* URL + extension.swift in Sources */,
 				0177F141254C62E300764AFC /* HomeDateSource.swift in Sources */,
+				01C721B92566D00100548E13 /* WKWebviewShareCookieViewController.swift in Sources */,
 				0177F034254AF43C00764AFC /* SceneDelegate.swift in Sources */,
 				0177F0B0254B1AC100764AFC /* BaseViewController.swift in Sources */,
 				0177F11B254C556A00764AFC /* NewFeedViewController.swift in Sources */,
