@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017545862577D05300978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545842577D05300978EE8 /* LayoutViewController.swift */; };
+		017545DD2577E4D100978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545DC2577E4D100978EE8 /* LayoutViewController.swift */; };
 		0177F032254AF43C00764AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F031254AF43C00764AFC /* AppDelegate.swift */; };
 		0177F034254AF43C00764AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F033254AF43C00764AFC /* SceneDelegate.swift */; };
 		0177F03B254AF43D00764AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0177F03A254AF43D00764AFC /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017545842577D05300978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		017545DC2577E4D100978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		0177F031254AF43C00764AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0177F033254AF43C00764AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0177F03A254AF43D00764AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				966785C2254C134700E158AD /* HiddenHeaderWhenScroll */,
+				017545DC2577E4D100978EE8 /* LayoutViewController.swift */,
+				017545842577D05300978EE8 /* LayoutViewController.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -629,6 +635,7 @@
 				01F01798254F0F7500567E67 /* WKWebviewMainUIViewController.swift in Sources */,
 				01C721AA2566B7E300548E13 /* WKWebSessionViewController.swift in Sources */,
 				966785DE254C153200E158AD /* UItableViewCell + extension.swift in Sources */,
+				017545DD2577E4D100978EE8 /* LayoutViewController.swift in Sources */,
 				0177F032254AF43C00764AFC /* AppDelegate.swift in Sources */,
 				0177F086254AFD3700764AFC /* HiddenStatusBarViewController.swift in Sources */,
 				01C721B32566B96700548E13 /* WKWebSessionDetailViewController.swift in Sources */,
@@ -645,6 +652,7 @@
 				0177F157254C68B900764AFC /* HomeViewController + extension.swift in Sources */,
 				0177F078254AFA7A00764AFC /* UIViewController + extension.swift in Sources */,
 				0177F10B254C531E00764AFC /* HomeTabBarViewController.swift in Sources */,
+				017545862577D05300978EE8 /* LayoutViewController.swift in Sources */,
 				0177F0A3254B149000764AFC /* HeaderView.swift in Sources */,
 				966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */,
 			);

@@ -7,6 +7,8 @@ target 'DesignEx' do
 pod 'Alamofire'
 pod 'RxSwift'
 pod 'RxCocoa'
+pod 'LicensePlistViewController'
+pod 'LicensePlist'
   # Pods for DesignEx
 
   target 'DesignExTests' do

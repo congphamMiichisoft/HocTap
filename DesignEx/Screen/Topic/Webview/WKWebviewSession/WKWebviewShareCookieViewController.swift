@@ -16,7 +16,6 @@ class WKWebviewShareCookieViewController: UIViewController {
         guard let views : [UIView]? = stMain.subviews else{
             return
         }
-        Environment.shared.processPool = WKProcessPool()
         
     }
     

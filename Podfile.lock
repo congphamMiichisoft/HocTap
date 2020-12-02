@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (5.2.2)
+  - LicensePlist (3.0.5)
+  - LicensePlistViewController (2.1.2)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -9,22 +11,28 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - LicensePlist
+  - LicensePlistViewController
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - LicensePlist
+    - LicensePlistViewController
     - RxCocoa
     - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  LicensePlist: 11c638fa9dc22ddb5771cdf910242ae1ba2684da
+  LicensePlistViewController: cb07179030b75c6bc13cb01ad48944a7c0ac19de
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 623220c5709a5791c949b0bfb7c0c8452823a096
+PODFILE CHECKSUM: 66ecd2f7f0e6bf9ad38b779bf201d0c6a17025d3
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
