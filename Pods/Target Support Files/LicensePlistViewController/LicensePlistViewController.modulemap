@@ -1,0 +1,6 @@
+framework module LicensePlistViewController {
+  umbrella header "LicensePlistViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
