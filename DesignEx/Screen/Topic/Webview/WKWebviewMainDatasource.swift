@@ -26,6 +26,7 @@ class WKWebviewMainDatasource : NSObject, UITableViewDelegate, UITableViewDataSo
         var listItem = [Iterm]()
         listItem.append(Iterm(controller: WKWebViewMenuExViewController(),name: "Hidden Menu in Header of Website"))
         listItem.append(Iterm(controller: WKWebViewMenuExViewController()))
+        listItem.append(Iterm(controller: WKWebSessionViewController(), name: "Keeps Session Website"))
         return listItem
     }
     var delegate  : ((UIViewController)->Void)?

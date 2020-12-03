@@ -22,6 +22,7 @@ class WKWebViewMenuExViewController: BaseViewController {
         self.listMenu.append(Menu(name: "Giải trí", link: "https://docbao.vn/giai-tri"))
         self.listMenu.append(Menu(name: "Kinh tế", link: "https://docbao.vn/kinh-te"))
         self.listMenu.append(Menu(name: "Thể thao", link: "https://docbao.vn/the-thao"))
+        self.listMenu.append(Menu(name: "Google Info Account", link: "https://myaccount.google.com/personal-info"))
         
     }
 
