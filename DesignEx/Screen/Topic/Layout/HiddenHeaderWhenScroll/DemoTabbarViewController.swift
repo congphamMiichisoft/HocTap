@@ -74,8 +74,6 @@ class DemoTabbarViewController: UITabBarController {
 
     
     func addHeader(){
-        let window = UIApplication.shared.windows[0]
-        let top = window.safeAreaInsets.top
         naviView = NavigationCustom()
         self.view.addSubview(naviView)
         naviView.snp.makeConstraints { (make) in
@@ -280,10 +278,8 @@ class DemoBaseViewController : UIViewController {
     var swipe : UISwipeGestureRecognizer!
     var tabbarMain : DemoTabbarViewController!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        if let tabbar : DemoTabbarViewController? = tabBarController as! DemoTabbarViewController {
-            self.tabbarMain = tabbar
-        }
+        super.viewDidLoad() 
+        
         swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction))
         self.view.addGestureRecognizer(swipe)
         

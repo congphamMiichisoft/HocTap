@@ -10,8 +10,6 @@ import RxSwift
 import RxCocoa
 extension HomeViewController {
    func  configSearch(){
-    searchBar.rx.text.subscribe() {text in
-        print(text)
-    }
+    
    }
 }

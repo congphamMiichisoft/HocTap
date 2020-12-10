@@ -11,12 +11,12 @@ extension Array {
     func getminLengthString()->CGFloat {
         var min = CGFloat(0)
         for item in self {
-            if let string: String? = item as! String {
-               let size =  string?.width(withConstrainedHeight: 17, font: UIFont.systemFont(ofSize: 17))
-                if min < size! {
-                    min = size!
+             let string: String = item as! String
+               let size =  string.width(withConstrainedHeight: 17, font: UIFont.systemFont(ofSize: 17))
+                if min < size {
+                    min = size
                 }
-            }
+            
         }
         return min
 

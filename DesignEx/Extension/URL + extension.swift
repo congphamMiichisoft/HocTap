@@ -24,7 +24,7 @@ extension URL {
             imageView.image = image
         }
         URLSession.shared.dataTask(with: URL(fileURLWithPath: "")) { (data, responce, error) in
-            print(error)
+            print(error!)
         }
     }
 }

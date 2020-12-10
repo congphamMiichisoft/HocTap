@@ -13,9 +13,7 @@ class WKWebviewShareCookieViewController: UIViewController {
     var webview2 : WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let views : [UIView]? = stMain.subviews else{
-            return
-        }
+       
         
     }
     

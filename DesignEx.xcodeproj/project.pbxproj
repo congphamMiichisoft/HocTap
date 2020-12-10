@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017545862577D05300978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545842577D05300978EE8 /* LayoutViewController.swift */; };
 		017545DD2577E4D100978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545DC2577E4D100978EE8 /* LayoutViewController.swift */; };
 		017545E2257A6BDF00978EE8 /* DemoTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545E1257A6BDF00978EE8 /* DemoTabbarViewController.swift */; };
 		017545F1257A6F3400978EE8 /* NavigationCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545F0257A6F3400978EE8 /* NavigationCustom.swift */; };
@@ -59,6 +58,7 @@
 		966785DE254C153200E158AD /* UItableViewCell + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966785DD254C153200E158AD /* UItableViewCell + extension.swift */; };
 		966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966785E2254C1A9100E158AD /* WKWebviewDetailViewController.swift */; };
 		966785E5254C1A9100E158AD /* WKWebviewDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966785E3254C1A9100E158AD /* WKWebviewDetailViewController.xib */; };
+		966B538025822E2200FA1105 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B537F25822E2200FA1105 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +79,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017545842577D05300978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		017545DC2577E4D100978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		017545E1257A6BDF00978EE8 /* DemoTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabbarViewController.swift; sourceTree = "<group>"; };
 		017545F0257A6F3400978EE8 /* NavigationCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustom.swift; sourceTree = "<group>"; };
@@ -116,8 +115,8 @@
 		0177F13A254C5FB900764AFC /* URL + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + extension.swift"; sourceTree = "<group>"; };
 		0177F140254C62E300764AFC /* HomeDateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDateSource.swift; sourceTree = "<group>"; };
 		0177F150254C670A00764AFC /* DesignEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0177F151254C670A00764AFC /* DesignExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0177F152254C670A00764AFC /* DesignExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0177F151254C670A00764AFC /* DesignExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DesignExTests.xctest; path = "/Users/chuthanhtung/PHAM CONG/HOC TAP/HocTap/build/Debug-iphoneos/DesignExTests.xctest"; sourceTree = "<absolute>"; };
+		0177F152254C670A00764AFC /* DesignExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DesignExUITests.xctest; path = "/Users/chuthanhtung/PHAM CONG/HOC TAP/HocTap/build/Debug-iphoneos/DesignExUITests.xctest"; sourceTree = "<absolute>"; };
 		0177F156254C68B900764AFC /* HomeViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + extension.swift"; sourceTree = "<group>"; };
 		0177F161254F035A00764AFC /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
 		01C721A82566B7E300548E13 /* WKWebSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebSessionViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +133,7 @@
 		966785DD254C153200E158AD /* UItableViewCell + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UItableViewCell + extension.swift"; sourceTree = "<group>"; };
 		966785E2254C1A9100E158AD /* WKWebviewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebviewDetailViewController.swift; sourceTree = "<group>"; };
 		966785E3254C1A9100E158AD /* WKWebviewDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebviewDetailViewController.xib; sourceTree = "<group>"; };
+		966B537F25822E2200FA1105 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		ACDFDBFC42BDB8BEFE60B4C0 /* Pods-DesignEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignEx.release.xcconfig"; path = "Target Support Files/Pods-DesignEx/Pods-DesignEx.release.xcconfig"; sourceTree = "<group>"; };
 		BAAA884C4EF3A11F1D98238C /* Pods-DesignExTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignExTests.release.xcconfig"; path = "Target Support Files/Pods-DesignExTests/Pods-DesignExTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE6909037D5C68EC3F8A1A97 /* Pods-DesignExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignExTests.debug.xcconfig"; path = "Target Support Files/Pods-DesignExTests/Pods-DesignExTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,14 +188,13 @@
 				7E6F11CCDA1C200FA5DAE293 /* Pods */,
 				BE812EC41F9D8413A509DCED /* Frameworks */,
 				0177F150254C670A00764AFC /* DesignEx.app */,
-				0177F151254C670A00764AFC /* DesignExTests.xctest */,
-				0177F152254C670A00764AFC /* DesignExUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		0177F030254AF43C00764AFC /* DesignEx */ = {
 			isa = PBXGroup;
 			children = (
+				966B537E25822E0D00FA1105 /* Service */,
 				017545EF257A6F0200978EE8 /* View */,
 				0177F0EC254C499B00764AFC /* System */,
 				0177F09C254B144700764AFC /* Base */,
@@ -299,7 +298,6 @@
 			children = (
 				966785C2254C134700E158AD /* HiddenHeaderWhenScroll */,
 				017545DC2577E4D100978EE8 /* LayoutViewController.swift */,
-				017545842577D05300978EE8 /* LayoutViewController.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -387,6 +385,14 @@
 			children = (
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		966B537E25822E0D00FA1105 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				966B537F25822E2200FA1105 /* APIManager.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 		BE812EC41F9D8413A509DCED /* Frameworks */ = {
@@ -675,12 +681,12 @@
 				0177F0B0254B1AC100764AFC /* BaseViewController.swift in Sources */,
 				017545E2257A6BDF00978EE8 /* DemoTabbarViewController.swift in Sources */,
 				0177F11B254C556A00764AFC /* NewFeedViewController.swift in Sources */,
+				966B538025822E2200FA1105 /* APIManager.swift in Sources */,
 				0177F06E254AFA2200764AFC /* FunctionTableViewCell.swift in Sources */,
 				0177F157254C68B900764AFC /* HomeViewController + extension.swift in Sources */,
 				0177F078254AFA7A00764AFC /* UIViewController + extension.swift in Sources */,
 				0177F10B254C531E00764AFC /* HomeTabBarViewController.swift in Sources */,
 				017545F1257A6F3400978EE8 /* NavigationCustom.swift in Sources */,
-				017545862577D05300978EE8 /* LayoutViewController.swift in Sources */,
 				0177F0A3254B149000764AFC /* HeaderView.swift in Sources */,
 				966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */,
 			);
