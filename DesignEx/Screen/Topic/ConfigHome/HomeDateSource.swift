@@ -15,6 +15,7 @@ class HomeViewDatasource : NSObject, UICollectionViewDelegate, UICollectionViewD
         list.append(Topic(name: "CoreImage", baget: 1))
         list.append(Topic(name: "RXSwift",imageUrl: "https://raw.githubusercontent.com/ReactiveX/RxSwift/main/assets/Rx_Logo_M.png", baget: 0))
         list.append(Topic(name: "Giao diện",imageUrl: "https://icon-library.net/images/layout-icon/layout-icon-3.jpg", baget: 0,sence: LayoutViewController()))
+        list.append(Topic(name: "Phone",imageUrl: "https://i.pinimg.com/originals/84/4e/8c/844e8cd4ab26c82286238471f0e5a901.png", baget: 0,sence: DemoTabbarViewController()))
         return list
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
