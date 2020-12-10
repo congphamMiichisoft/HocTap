@@ -9,6 +9,7 @@ pod 'RxSwift'
 pod 'RxCocoa'
 pod 'LicensePlistViewController'
 pod 'LicensePlist'
+pod 'SnapKit'
   # Pods for DesignEx
 
   target 'DesignExTests' do

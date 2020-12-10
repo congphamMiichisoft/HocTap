@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		017545862577D05300978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545842577D05300978EE8 /* LayoutViewController.swift */; };
 		017545DD2577E4D100978EE8 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545DC2577E4D100978EE8 /* LayoutViewController.swift */; };
+		017545E2257A6BDF00978EE8 /* DemoTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545E1257A6BDF00978EE8 /* DemoTabbarViewController.swift */; };
+		017545F1257A6F3400978EE8 /* NavigationCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017545F0257A6F3400978EE8 /* NavigationCustom.swift */; };
+		01754601257A916500978EE8 /* MenuSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01754600257A916500978EE8 /* MenuSetting.swift */; };
+		01754613257B663100978EE8 /* Array + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01754612257B663100978EE8 /* Array + extension.swift */; };
+		01754618257B720C00978EE8 /* UITextfield + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01754617257B720C00978EE8 /* UITextfield + extension.swift */; };
 		0177F032254AF43C00764AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F031254AF43C00764AFC /* AppDelegate.swift */; };
 		0177F034254AF43C00764AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177F033254AF43C00764AFC /* SceneDelegate.swift */; };
 		0177F03B254AF43D00764AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0177F03A254AF43D00764AFC /* Assets.xcassets */; };
@@ -76,6 +81,11 @@
 /* Begin PBXFileReference section */
 		017545842577D05300978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		017545DC2577E4D100978EE8 /* LayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		017545E1257A6BDF00978EE8 /* DemoTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabbarViewController.swift; sourceTree = "<group>"; };
+		017545F0257A6F3400978EE8 /* NavigationCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustom.swift; sourceTree = "<group>"; };
+		01754600257A916500978EE8 /* MenuSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSetting.swift; sourceTree = "<group>"; };
+		01754612257B663100978EE8 /* Array + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + extension.swift"; sourceTree = "<group>"; };
+		01754617257B720C00978EE8 /* UITextfield + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield + extension.swift"; sourceTree = "<group>"; };
 		0177F031254AF43C00764AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0177F033254AF43C00764AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0177F03A254AF43D00764AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +172,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017545EF257A6F0200978EE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				017545F0257A6F3400978EE8 /* NavigationCustom.swift */,
+				01754600257A916500978EE8 /* MenuSetting.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0177F025254AF43C00764AFC = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +196,7 @@
 		0177F030254AF43C00764AFC /* DesignEx */ = {
 			isa = PBXGroup;
 			children = (
+				017545EF257A6F0200978EE8 /* View */,
 				0177F0EC254C499B00764AFC /* System */,
 				0177F09C254B144700764AFC /* Base */,
 				0177F076254AFA5F00764AFC /* Extension */,
@@ -211,6 +231,8 @@
 				0177F07F254AFBD900764AFC /* ViewController + extension.swift */,
 				966785DD254C153200E158AD /* UItableViewCell + extension.swift */,
 				0177F135254C5F3200764AFC /* String + extension.swift */,
+				01754617257B720C00978EE8 /* UITextfield + extension.swift */,
+				01754612257B663100978EE8 /* Array + extension.swift */,
 				0177F13A254C5FB900764AFC /* URL + extension.swift */,
 				0177F161254F035A00764AFC /* UIImageView + extension.swift */,
 				01F017B2254F1B3B00567E67 /* UIAlertController + extension.swift */,
@@ -343,6 +365,7 @@
 			children = (
 				0177F084254AFD3700764AFC /* HiddenStatusBarViewController.swift */,
 				0177F085254AFD3700764AFC /* HiddenStatusBarViewController.xib */,
+				017545E1257A6BDF00978EE8 /* DemoTabbarViewController.swift */,
 			);
 			path = HiddenHeaderWhenScroll;
 			sourceTree = "<group>";
@@ -628,6 +651,7 @@
 				0177F123254C572500764AFC /* ItermCollectionViewCell.swift in Sources */,
 				01F017B3254F1B3B00567E67 /* UIAlertController + extension.swift in Sources */,
 				0177F0B6254B1B7400764AFC /* WKWebViewMenuExViewController.swift in Sources */,
+				01754618257B720C00978EE8 /* UITextfield + extension.swift in Sources */,
 				0177F131254C5E8C00764AFC /* UILable + extension.swift in Sources */,
 				01F0179E254F106C00567E67 /* WKWebviewMainDatasource.swift in Sources */,
 				0177F162254F035A00764AFC /* UIImageView + extension.swift in Sources */,
@@ -640,18 +664,22 @@
 				0177F086254AFD3700764AFC /* HiddenStatusBarViewController.swift in Sources */,
 				01C721B32566B96700548E13 /* WKWebSessionDetailViewController.swift in Sources */,
 				0177F114254C537D00764AFC /* HomeViewController.swift in Sources */,
+				01754601257A916500978EE8 /* MenuSetting.swift in Sources */,
 				0177F080254AFBD900764AFC /* ViewController + extension.swift in Sources */,
 				0177F136254C5F3200764AFC /* String + extension.swift in Sources */,
 				0177F13B254C5FB900764AFC /* URL + extension.swift in Sources */,
 				0177F141254C62E300764AFC /* HomeDateSource.swift in Sources */,
 				01C721B92566D00100548E13 /* WKWebviewShareCookieViewController.swift in Sources */,
+				01754613257B663100978EE8 /* Array + extension.swift in Sources */,
 				0177F034254AF43C00764AFC /* SceneDelegate.swift in Sources */,
 				0177F0B0254B1AC100764AFC /* BaseViewController.swift in Sources */,
+				017545E2257A6BDF00978EE8 /* DemoTabbarViewController.swift in Sources */,
 				0177F11B254C556A00764AFC /* NewFeedViewController.swift in Sources */,
 				0177F06E254AFA2200764AFC /* FunctionTableViewCell.swift in Sources */,
 				0177F157254C68B900764AFC /* HomeViewController + extension.swift in Sources */,
 				0177F078254AFA7A00764AFC /* UIViewController + extension.swift in Sources */,
 				0177F10B254C531E00764AFC /* HomeTabBarViewController.swift in Sources */,
+				017545F1257A6F3400978EE8 /* NavigationCustom.swift in Sources */,
 				017545862577D05300978EE8 /* LayoutViewController.swift in Sources */,
 				0177F0A3254B149000764AFC /* HeaderView.swift in Sources */,
 				966785E4254C1A9100E158AD /* WKWebviewDetailViewController.swift in Sources */,
